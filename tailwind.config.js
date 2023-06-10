@@ -7,7 +7,12 @@ module.exports = {
   ],
   darkMode: ["class"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        displaySerif: ["Lucette", "serif"],
+        serif: ["Happy Times at the IKOB", "sans-serif"],
+      }
+    },
   },
   plugins: [require("@tailwindcss/typography")],
 }

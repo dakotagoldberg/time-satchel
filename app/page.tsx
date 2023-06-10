@@ -1,5 +1,22 @@
 import { allPosts } from "@/.contentlayer/generated"
 import Link from "next/link"
+import localFont from 'next/font/local';
+
+const lucette = localFont({
+  src: [
+    {
+      path: '../public/fonts/lucette/Lucette-Regular.woff2',
+      weight: '400',
+      style: 'normal',
+    },
+    {
+      path: '../public/fonts/lucette/Lucette-Regularitalic.woff2',
+      weight: '400',
+      style: 'italic',
+    },
+  ],
+  variable: '--font-lucette',
+});
 
 export default function Home() {
   return (

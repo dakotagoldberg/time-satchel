@@ -1,3 +1,38 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    @font-face {
+      font-family: 'Lucette';
+      src: url('../public/fonts/lucette/Lucette-Regular.woff2') format('woff2');
+      font-weight: 400;
+      font-style: normal;
+    }
+    @font-face {
+        font-family: 'Lucette';
+        src: url('../public/fonts/lucette/Lucette-Regularitalic.woff2') format('woff2');
+        font-weight: 400;
+        font-style: italic;
+    }
+    @font-face {
+        font-family: 'Happy Times at the IKOB';
+        src: url('../public/fonts/happy-times/happy-times-NG_regular_master_web.woff2') format('woff2');
+        font-weight: 400;
+        font-style: normal;
+    }
+    @font-face {
+        font-family: 'Happy Times at the IKOB';
+        src: url('../public/fonts/happy-times/happy-times-NG_italic_master_web.woff2') format('woff2');
+        font-weight: 400;
+        font-style: italic;
+    }
+    @font-face {
+        font-family: 'Happy Times at the IKOB';
+        src: url('../public/fonts/happy-times/happy-times-NG_bold_master_web.woff2') format('woff2');
+        font-weight: 700;
+        font-style: normal;
+    }
+  }
+
+
